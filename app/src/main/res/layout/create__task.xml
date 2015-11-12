@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="29"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Create Task"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:hint="Enter the Task Name"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:hint="Enter Finish Date"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="Add People to the task"
+        android:id="@+id/button_addContact"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:inputType="textPostalAddress"
+        android:ems="9"
+        android:id="@+id/editText2"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:hint="Enter Task Description"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:inputType="textPostalAddress"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:hint="Comments"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="submit"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
